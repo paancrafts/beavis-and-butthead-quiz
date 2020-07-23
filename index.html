@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+
+  <title>THE UNOFFICIAL BEAVIS AND BUTTHEAD MUSIC QUIZ</title>
+
+  <meta name="description" content="Help Beavis and Butthead while testing your your music knowledge">
+
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Montserrat:400,600,900|Oswald:400,600" rel="stylesheet">
+
+  <link rel="stylesheet" href="grid.css">
+  <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+<!-- Header area -->  
+  <div class="row">
+    <header role="banner" class="col-12">
+        <img class="headerImage" src="images/Beavis-And-Butt-head-640x379.jpg" alt="Beavis and Butthead in bubbles facing each other">
+        <h1 class="text-center">THE <span class="cross">OFFICIAL</span> BEAVIS AND BUTTHEAD  MUSIC QUIZ</h1>
+        <div class="col-12 keepingScore hidden">
+          <p>Question: <span class="questionNumber">0</span>/10</p>
+          <p>Score: <span class="score">0</span> pts</p>
+        </div>
+    </header>
+  </div>
+<!-- Main area -->
+  <div class="row">
+    <main role="main" class="col-12">  
+      <div class="startQuiz">
+        <h2 class"text-center">Help Beavis and Butthead solve this music quiz. BUT WATCH OUT! Every wrong answer sends electricity through the boys.</h2>
+        <button role="button" class="startButton">START QUIZ</button>
+      </div>
+      <div class="feedbackView">
+        <div class="questionForm hidden"></div>
+        <div class="notifyCorrectAnswer hidden"></div>
+        <div class="notifyWrongAnswer hidden"></div>
+      </div>
+    </main>
+  </div>
+  
+  <!-- jquery CDN -->
+  <script src="https://code.jquery.com/jquery.min.js"></script>
+  <!-- Local javascript -->
+  <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
